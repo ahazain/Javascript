@@ -1,0 +1,9 @@
+Dalam node.js ; belajar object proses
+==property argv==
+*) pada indeks 0 akan muncul output lokasi node di jalankan | ex.C:\\ProgramFiles..node.axe
+*) Pada indeks 1 akan muncul output lokasi atau file apa yg kita jalankan | ex.C:\\users.....file.js
+.../
+global package bisa di instal di manapun dan bisa di gunakan dimanapun contoh jika ingin menggunakan di file atau memindahkan di file ini 'npm link cowsay'
+membuat file package.json ketik perintah npm init.
+===
+jika mengclone code orang lain pastinya folder node_modules itu tidak ada karena menyita banyak storage. pertanyaanya apakah bisa di run codenya? jawabannya error karena memerlukan dependency. tidak perlu memerintahkan npm install 'misal package apa gitu'. langsung perintahkan npm install itu akan menginstal dependency yg di butuhkan file codenya
