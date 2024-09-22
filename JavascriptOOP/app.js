@@ -165,3 +165,5 @@ class Anjing extends Peliharaan {
     return "guk guk!!";
   }
 }
+
+//cons variable = new object () | ini cara memanggil object yang di oop

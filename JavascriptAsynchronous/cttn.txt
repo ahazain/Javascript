@@ -1,0 +1,24 @@
+1. CALL STACK FUNCTION 
+- mekanisme memori di js
+- alur dalam code di js
+- mengecek apakah function saling berkaitan or tidak saling berkaitan or function berjalan di function lain.
+- untuk tau alur bisa di situs python visual
+
+2. FAKTA JS SINGLE THREAD
+- program hanya menjalanan 1 proses. 
+- menunggu proses satu dan proses lainnya
+- bisa menggunakan setTImeout jika seolah multithread. 
+
+3. PROMISE | contoh ada di folder promise
+- bisa menjalankan proses selanjutnya walaupun proses sebelumya gagal ataupun berhasil 
+- dengan menggunakan promise akan lebih mengefesiensi code. karena jika mengunakan callback function untuk request akan terjadi request di dalam request
+- dengan .then untuk result dan cacth untuk error akan menghilangkan terjadinya callback hell
+- bisa untuk berhasil menggunakan resolve dan gagal menggunakan reject karena itu biasa digunakan
+
+4. FUNGSI ASYNCHRONOUS KEYWORD | contoh ada di folder asyncawait
+- ada 2 fungsi biasa di asyn yakni asyn dan await
+- variabel jika sudah diberikan asyn bakal bisa menggunakan fungsi .then dsb yg di miliki ASYNCHRONOUS
+- asyn ada object throw jika ada didalam function akan otomatis dianggap error
+- await hanya bisa bekerja dengan diawali asyn
+- dengan await memasikan proses pertama akan dijalankan dan tidak akan loncat ke proses kedua jika 2 fungsi dijalankan bersama. | contoh ada di folder backgroundchanger
+- ketika error di proses pertama perlu di lakukan handling (bisa menggunakan try and cacth)| contoh ada di folder promise code bawah not comment

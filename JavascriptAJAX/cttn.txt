@@ -1,0 +1,23 @@
+1. request / AJAX
+- data biasa menggunakan format JSON 
+- request ini intinya hanya ingin mendapatkan data tertentu dan sampai diolah dan di tampilkan
+- contoh ketika mengetik di pencarian dan akan muncul komponen / opsi dari yang diketikkan secara dinamis tanpa refresh / secara asynchronous.
+
+2. mengenal api
+- bisa dikerjakan dengan server terpisah dari frond end dan back end 
+- frond end dan back end berkomunikais dengan mengguankan api
+
+3. mengenal JSON
+- memiliki perbedaan tipe data ini adalah valuenya tidak ada tipe data undefined
+- menggunakan single quote(petik 2) untuk key dan valuenya
+- Json jika di buatkan bentuk object di js tidak akan bisa dipanggil, jikapun di panggil di console akan jadi string. tipsnya harus di JSON.parse() dan nanti akan jadi bentuk object dan bisa dipanggil seperti object biasa di JS | contoh variabel = JSON.parse(objecnya). 
+- server hanya bisa membaca format json dan jika kita mengirimkan , caranya yakni bikin object seperti biasa dan menggunakan fungsi JSON.stringify otomatis akan menjadi format JSON ex. JSON.stringify(namaobjectnya)
+- jika ingin mengirimkan bisa menggunakan fungsi JSON.stringify  dan jika menerima dari server bisa di JSON.parse()
+
+4. MENGENAL HTTP VERB / HTTP METHOD
+- ada kategori angka yang sudah familiar di API postman
+- dan ada sebutan query string . yang biasa ada di endpoint setelah tanda '?' itu bisa di sebut query string yang berisi key dan value | ?key=value&..
+
+5. REQUEST 
+- request dengan XMLHttpRequest namun boros code dan panjang dan belum mendukung promise
+- terbaru request dengan fetch mendukung promise
